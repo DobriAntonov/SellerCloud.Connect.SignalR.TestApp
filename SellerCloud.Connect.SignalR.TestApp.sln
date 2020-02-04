@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellerCloud.Connect.SignalR.TestApp", "SellerCloud.Connect.SignalR.TestApp.csproj", "{1D7141F6-88C3-489A-8428-82C5DA9CB54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellerCloud.Connect.SignalR", "..\SellerCloud.Connect.SignalR\SellerCloud.Connect.SignalR.csproj", "{E059782A-3FA5-4025-89BE-A32E82F99FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellerCloud.Connect.Rest", "..\SellerCloud.Connect.Rest\SellerCloud.Connect.Rest.csproj", "{07CA3C2E-CEA4-40F7-960A-61CFCC2E4848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7141F6-88C3-489A-8428-82C5DA9CB54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7141F6-88C3-489A-8428-82C5DA9CB54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7141F6-88C3-489A-8428-82C5DA9CB54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7141F6-88C3-489A-8428-82C5DA9CB54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E059782A-3FA5-4025-89BE-A32E82F99FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E059782A-3FA5-4025-89BE-A32E82F99FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E059782A-3FA5-4025-89BE-A32E82F99FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E059782A-3FA5-4025-89BE-A32E82F99FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CA3C2E-CEA4-40F7-960A-61CFCC2E4848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CA3C2E-CEA4-40F7-960A-61CFCC2E4848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CA3C2E-CEA4-40F7-960A-61CFCC2E4848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CA3C2E-CEA4-40F7-960A-61CFCC2E4848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEEE830F-BB54-4B1B-BF10-2E089631DD44}
+	EndGlobalSection
+EndGlobal
