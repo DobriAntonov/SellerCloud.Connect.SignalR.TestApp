@@ -72,7 +72,7 @@ namespace SellerCloud.Connect.SignalR.TestApp
 
         static void AttachHubEventHandlers(IEventsHubClient hub)
         {
-            hub.SendTokenResult += (correlationId, token) => StatusAsync($"Token recieved '{token}' for correlation id {correlationId}.");
+            hub.TokenReceived += (correlationId, token) => StatusAsync($"Token recieved '{token.access_token}' for correlation id {correlationId}.");
         }
 
         static async Task ConnectAsync(HubConnection connection, Uri hubUri, IRetryPolicy retryPolicy)
